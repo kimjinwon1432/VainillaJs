@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+
+}
+
+#clockDiv > span{
+    width: auto;
+    margin: 0 auto;
+    align-content: center;
+    display: grid;
+
+}
+
+#clockDiv > span> label{
+    width: auto;
+}
+#clockDiv > span> label:first-child{
+    font-size: 2rem;
+    text-align: center;
+}
+#clockDiv > span> label:last-child{
+    font-size: 4rem;
+    text-align: center;
+}
+#loginForm{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.blank{
+    display:none;
+}
