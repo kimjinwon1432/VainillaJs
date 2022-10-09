@@ -1,6 +1,14 @@
-body{
-    margin: 0 auto;
-
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    margin: auto 0;
+    display: grid;
+  }
+#clockDiv{
+margin-top: 200px;
 }
 
 #clockDiv > span{
@@ -8,6 +16,7 @@ body{
     margin: 0 auto;
     align-content: center;
     display: grid;
+    background-color: rgba(150,150,150,0.3);
 
 }
 
@@ -28,6 +37,49 @@ body{
     justify-content: center;
     gap: 10px;
 }
+
+#todoForm{
+    margin: auto 0;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+#todoForm span{
+    display: flex;
+    gap: 10px;
+}
+
 .blank{
     display:none;
 }
+
+ul#todo-list {
+  list-style-type: none;
+padding-left: 0;
+}
+
+#todo-list > li {
+}
+
+#todo-list > li > span {
+  font-size: 1rem;
+}
+
+#todo-list {
+    display: inline;
+    height:130px;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+  }
+  #todo-form,
+  #login-form {
+    display: flex;
+    place-content: center;
+  }
+  #weather {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+  }

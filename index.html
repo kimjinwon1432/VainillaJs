@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
     <div id="clockDiv">
         <span>
             <label></label>
@@ -16,12 +20,21 @@
     </div>
     
     <form id="loginForm">
-        <input type="text" id="login" placeholder="your name?"/>
+        <input type="text" id="login" placeholder="your name?" required/>
         <input type="button" value = "log-in"/>
         <h2 class="blank"></h2>
     </form>
-
+    <form id="todo-form">
+        <span>
+            <input type="text" placeholder="Wirte a To Do and Enter"></input>
+        </span>
+    </form>
+    <ul id="todo-list"></ul>
     <script src="src/login.js"></script>
     <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/weather.js"></script>
+    
 </body>
 </html>
